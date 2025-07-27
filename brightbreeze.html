@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Breeze Carpet Cleaning Winnipeg | Professional Carpet & Upholstery Cleaning Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <image src="E:\BrightBreeze\BrightBreeze\brightbreeze.ca\wp-content\uploads\2024\03\BrightBreeze-Final-Logo.png" width="100" height="120"</i>
+                <a href="#" class="text-2xl font-bold text-blue-800">Bright<span class="text-blue-500">Breeze</span></a>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="#home" class="text-blue-800 hover:text-blue-600 font-medium">Home</a>
+                <a href="#services" class="text-blue-800 hover:text-blue-600 font-medium">Services</a>
+                <a href="#about" class="text-blue-800 hover:text-blue-600 font-medium">About</a>
+                <a href="#testimonials" class="text-blue-800 hover:text-blue-600 font-medium">Testimonials</a>
+                <a href="#contact" class="text-blue-800 hover:text-blue-600 font-medium">Contact</a>
+            </nav>
+            
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-blue-800 focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-4 px-4 shadow-lg">
+            <div class="flex flex-col space-y-3">
+                <a href="#home" class="text-blue-800 hover:text-blue-600 font-medium">Home</a>
+                <a href="#services" class="text-blue-800 hover:text-blue-600 font-medium">Services</a>
+                <a href="#about" class="text-blue-800 hover:text-blue-600 font-medium">About</a>
+                <a href="#testimonials" class="text-blue-800 hover:text-blue-600 font-medium">Testimonials</a>
+                <a href="#contact" class="text-blue-800 hover:text-blue-600 font-medium">Contact</a>
+                <a href="tel:+1234567890" class="bg-blue-600 text-white py-2 px-4 rounded-full text-center hover:bg-blue-700 transition">Call Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gradient-to-r from-blue-500 to-blue-700 text-white py-20">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0 fade-in">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Winnipeg's Trusted Carpet & Upholstery Cleaning</h1>
+                <p class="text-xl mb-8">BrightBreeze Carpet & Upholstery Cleaning in Winnipeg delivers top-tier, eco-friendly cleaning services for residential and commercial spaces. Specializing in professional carpet cleaning, rug cleaning, and upholstery cleaning, we utilize cutting-edge technology and green products to eliminate stubborn stains, allergens, and odors. Our skilled technicians provide customized, reliable, and affordable solutions, ensuring your carpets and furniture look and feel refreshed. For the best carpet cleaning services in Winnipeg, trust BrightBreeze to enhance your home or office with a spotless, healthy environment. Contact us today!</p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#contact" class="bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-6 rounded-full text-center transition">Get a Free Quote</a>
+                    <a href="tel:+1234567890" class="border-2 border-white hover:bg-white hover:text-blue-600 font-bold py-3 px-6 rounded-full text-center transition">
+                        <i class="fas fa-phone mr-2"></i> (431) 554-7410
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2 fade-in">
+                <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Clean living room" class="rounded-lg shadow-2xl w-full h-auto">
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="bg-white py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-blue-800 mb-12">Why Choose FreshClean?</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-blue-50 p-6 rounded-lg text-center">
+                    <div class="bg-blue-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-leaf text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">Eco-Friendly Solutions</h3>
+                    <p class="text-gray-600">We use only environmentally safe cleaning products that are tough on stains but gentle on your family and pets.</p>
+                </div>
+                
+                <div class="bg-blue-50 p-6 rounded-lg text-center">
+                    <div class="bg-blue-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-award text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">Certified Professionals</h3>
+                    <p class="text-gray-600">Our technicians are IICRC certified with years of experience in all types of carpet and upholstery cleaning.</p>
+                </div>
+                
+                <div class="bg-blue-50 p-6 rounded-lg text-center">
+                    <div class="bg-blue-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-clock text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-blue-800 mb-2">Quick Drying Time</h3>
+                    <p class="text-gray-600">Our advanced cleaning methods ensure your carpets and furniture dry quickly, minimizing disruption to your home.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-blue-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-blue-800 mb-4">Winnipeg Carpet & Upholstery Cleaning Services</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Serving all Winnipeg neighborhoods with professional cleaning solutions for carpets, rugs, and furniture.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md service-card transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1400&q=80" alt="Carpet cleaning" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <div class="bg-blue-100 p-2 rounded-full mr-3">
+                                <i class="fas fa-couch text-blue-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-blue-800">Carpet Cleaning</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Deep cleaning that removes dirt, allergens, and stains while extending the life of your carpets.</p>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-blue-500 mr-2"></i>
+                                <span>Hot water extraction</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-blue-500 mr-2"></i>
+                                <span>Stain removal</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-blue-500 mr-2"></i>
+                                <span>Deodorizing</span>
+                            </li>
+                        </ul>
+                        <a href="#contact" class="text-blue-600 font-medium hover:text-blue-800 inline-flex items-center">Learn more <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md service-card transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1468&q=80" alt="Upholstery cleaning" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <div class="bg-blue-100 p-2 rounded-full mr-3">
+                                <i class="fas fa-chair text-blue-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-blue-800">Upholstery Cleaning</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Restore your furniture to its original beauty with our specialized upholstery cleaning.</p>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-blue-500 mr-2"></i>
+                                <span>Fabric protection</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-blue-500 mr-2"></i>
+                                <span>Odor elimination</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-blue-500 mr-2"></i>
+                                <span>Gentle on delicate fabrics</span>
+                            </li>
+                        </ul>
+                        <a href="#contact" class="text-blue-600 font-medium hover:text-blue-800 inline-flex items-center">Learn more <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md service-card transition duration-300">
+                    <img src="https://images.unsplash.com/photo-1600566752227-8a2d4c73b0cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Rug cleaning" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center mb-3">
+                            <div class="bg-blue-100 p-2 rounded-full mr-3">
+                                <i class="fas fa-rug text-blue-600"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-blue-800">Area Rug Cleaning</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Specialized cleaning for your valuable area rugs, whether synthetic or natural fibers.</p>
+                        <ul class="space-y-2 mb-4">
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-blue-500 mr-2"></i>
+                                <span>Hand-washing for delicate rugs</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-blue-500 mr-2"></i>
+                                <span>Fringe cleaning</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-check text-blue-500 mr-2"></i>
+                                <span>Moth & stain treatment</span>
+                            </li>
+                        </ul>
+                        <a href="#contact" class="text-blue-600 font-medium hover:text-blue-800 inline-flex items-center">Learn more <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full inline-flex items-center transition">
+                    <i class="fas fa-calendar-alt mr-2"></i> Book All Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <img src="C:\Users\Sid\Downloads\shivaji.jpg">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold text-blue-800 mb-6">About Bright Breeze</h2>
+                    <p class="text-gray-600 mb-4">Welcome to BrightBreeze Carpet & Upholstery Cleaning, your trusted partner for professional cleaning services in Winnipeg. With years of experience, we specialize in revitalizing carpets, rugs, and upholstery, bringing freshness and vibrancy to homes and businesses across the community.
+
+At BrightBreeze, we believe a clean space is a healthy space. That’s why we use eco-friendly, non-toxic cleaning solutions and cutting-edge equipment to tackle tough stains, eliminate allergens, and remove odors, ensuring your environment is both spotless and safe. Our skilled technicians are passionate about delivering exceptional results, tailoring every service to meet your unique needs.
+
+As a locally owned and operated business in Winnipeg, we take pride in our commitment to quality, reliability, and customer satisfaction. Whether it’s a cozy home or a bustling office, we treat every project with care and precision, leaving your spaces looking and feeling their best.
+
+Choose BrightBreeze Carpet & Upholstery Cleaning for a cleaner, healthier, and more inviting environment. Contact us today to experience the BrightBreeze difference!</p>
+                    <p class="text-gray-600 mb-6">We take pride in our attention to detail, commitment to customer satisfaction, and use of the latest cleaning technologies. Our team undergoes continuous training to stay updated with industry best practices.</p>
+                    
+                    <div class="bg-blue-50 p-6 rounded-lg mb-6">
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-star text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold text-blue-800 mb-2">Our Mission</h3>
+                                <p class="text-gray-600">Our mission is to provide top-rated, eco-friendly carpet cleaning and upholstery cleaning services that elevate the cleanliness and comfort of homes and businesses. We are dedicated to using sustainable, green cleaning solutions and state-of-the-art technology to remove tough stains, allergens, and odors, ensuring healthier indoor environments. Committed to excellence, we aim to deliver unparalleled customer satisfaction with tailored, reliable, and affordable services. Choose BrightBreeze for the best carpet cleaning in Winnipeg and experience a fresher, cleaner space today!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 bg-blue-800 text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-4">What Our Clients Say</h2>
+            <p class="text-center text-blue-200 mb-12 max-w-2xl mx-auto">Don't just take our word for it - hear from our satisfied customers.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white text-gray-800 p-6 rounded-lg shadow-lg testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-blue-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Sarah Johnson</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="italic mb-4">"FreshClean transformed my living room carpets! They looked brand new after the cleaning. The team was professional, punctual, and left no mess behind."</p>
+                    <div class="text-sm text-gray-500">May 15, 2023</div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white text-gray-800 p-6 rounded-lg shadow-lg testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-blue-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Michael Thompson</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="italic mb-4">"I was amazed at how they removed red wine stains from my white sofa that had been there for months. Highly recommend their upholstery cleaning service!"</p>
+                    <div class="text-sm text-gray-500">April 3, 2023</div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white text-gray-800 p-6 rounded-lg shadow-lg testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mr-4">
+                            <i class="fas fa-user text-blue-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Emily Rodriguez</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="italic mb-4">"As a mother of three and two dogs, my carpets take a beating. FreshClean always makes them look and smell amazing. Their pet odor treatment really works!"</p>
+                    <div class="text-sm text-gray-500">March 22, 2023</div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#" class="border-2 border-white hover:bg-white hover:text-blue-800 font-bold py-3 px-8 rounded-full inline-flex items-center transition">
+                    <i class="fas fa-comment-alt mr-2"></i> Leave a Review
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-blue-800 mb-4">Contact Us</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Ready to refresh your home? Get in touch for a free quote or to schedule a service.</p>
+            
+            <div class="flex flex-col lg:flex-row gap-12">
+                <div class="lg:w-1/2">
+                    <form class="bg-blue-50 p-8 rounded-lg shadow-md">
+                        <div class="mb-6">
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div class="mb-6">
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div class="mb-6">
+                            <label for="phone" class="block text-gray-700 font-medium mb-2">Phone Number</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div class="mb-6">
+                            <label for="service" class="block text-gray-700 font-medium mb-2">Service Needed</label>
+                            <select id="service" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <option value="">Select a service</option>
+                                <option value="carpet">Carpet Cleaning</option>
+                                <option value="upholstery">Upholstery Cleaning</option>
+                                <option value="rug">Area Rug Cleaning</option>
+                                <option value="combo">Combination Service</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition">
+                            <i class="fas fa-paper-plane mr-2"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <div class="bg-blue-50 p-8 rounded-lg shadow-md h-full">
+                        <h3 class="text-2xl font-bold text-blue-800 mb-6">Contact Information</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-map-marker-alt text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-blue-800 mb-1">Our Location</h4>
+                                    <p class="text-gray-600">33 Hargrave St<br>Winnipeg, MB R3B 1N1</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-phone text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-blue-800 mb-1">Call Us</h4>
+                                    <p class="text-gray-600">Office: (431) 554-7410</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-envelope text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-blue-800 mb-1">Email Us</h4>
+                                    <p class="text-gray-600">cleaning@brightbreeze.ca</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-clock text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-blue-800 mb-1">Working Hours</h4>
+                                    <p class="text-gray-600">Monday - Friday: 10am - 6pm<br>Saturday: 10am - 4pm<br>Sunday: Closed</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8">
+                            <h4 class="font-bold text-blue-800 mb-4">Follow Us</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="bg-blue-100 hover:bg-blue-200 w-10 h-10 rounded-full flex items-center justify-center text-blue-600 transition">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="bg-blue-100 hover:bg-blue-200 w-10 h-10 rounded-full flex items-center justify-center text-blue-600 transition">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="bg-blue-100 hover:bg-blue-200 w-10 h-10 rounded-full flex items-center justify-center text-blue-600 transition">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="bg-blue-100 hover:bg-blue-200 w-10 h-10 rounded-full flex items-center justify-center text-blue-600 transition">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-blue-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-blue-800 mb-12">Frequently Asked Questions</h2>
+            
+            <div class="max-w-3xl mx-auto space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <button class="faq-btn w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                        <span class="text-lg font-medium text-blue-800">How often should I have my carpets professionally cleaned?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-600">Most manufacturers recommend professional cleaning every 12-18 months to maintain your carpet's warranty and keep it looking its best. However, homes with pets, children, or high traffic may need cleaning every 6-12 months.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <button class="faq-btn w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                        <span class="text-lg font-medium text-blue-800">How long does it take for carpets to dry after cleaning?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-600">With our advanced cleaning methods, carpets typically dry within 4-6 hours. We can speed up drying time with air movers upon request. We recommend keeping foot traffic to a minimum until completely dry.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <button class="faq-btn w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                        <span class="text-lg font-medium text-blue-800">Are your cleaning products safe for pets and children?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-600">Absolutely! We use eco-friendly, non-toxic cleaning solutions that are certified safe for homes with pets and children. All our products are biodegradable and free from harsh chemicals.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <button class="faq-btn w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                        <span class="text-lg font-medium text-blue-800">Can you remove all stains from my carpet?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-600">While we can remove most common stains (coffee, wine, pet accidents, etc.), some permanent stains from dyes or certain chemicals may not be completely removable. We'll always evaluate your specific situation and do our best to improve the appearance.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 5 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <button class="faq-btn w-full flex justify-between items-center p-6 text-left focus:outline-none">
+                        <span class="text-lg font-medium text-blue-800">Do I need to move furniture before you arrive?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform"></i>
+                    </button>
+                    <div class="faq-content px-6 pb-6 hidden">
+                        <p class="text-gray-600">Our team will move standard furniture (sofas, chairs, tables) as part of our service. We only ask that you remove small, fragile, or valuable items. Please let us know if you have any particularly heavy pieces that may require special attention.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full inline-flex items-center transition">
+                    <i class="fas fa-question-circle mr-2"></i> Have More Questions?
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Ready for a Fresh, Clean Home?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Schedule your cleaning service today and experience the FreshClean difference!</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="tel:+1234567890" class="bg-white hover:bg-gray-100 text-blue-600 font-bold py-3 px-8 rounded-full inline-flex items-center transition">
+                    <i class="fas fa-phone mr-2"></i> Call Now
+                </a>
+                <a href="#contact" class="border-2 border-white hover:bg-white hover:text-blue-600 font-bold py-3 px-8 rounded-full inline-flex items-center transition">
+                    <i class="fas fa-envelope mr-2"></i> Email Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-broom text-blue-400 text-2xl mr-2"></i>
+                        <a href="#" class="text-2xl font-bold">Fresh<span class="text-blue-400">Clean</span></a>
+                    </div>
+                    <p class="text-blue-200 mb-4">Winnipeg's premier carpet and upholstery cleaning service for homes and businesses across Manitoba.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-300 hover:text-white transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-blue-300 hover:text-white transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-blue-300 hover:text-white transition">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-blue-300 hover:text-white transition">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-blue-200 hover:text-white transition">Carpet Cleaning</a></li>
+                        <li><a href="#" class="text-blue-200 hover:text-white transition">Upholstery Cleaning</a></li>
+                        <li><a href="#" class="text-blue-200 hover:text-white transition">Area Rug Cleaning</a></li>
+                        <li><a href="#" class="text-blue-200 hover:text-white transition">Pet Stain Removal</a></li>
+                        <li><a href="#" class="text-blue-200 hover:text-white transition">Odor Elimination</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-blue-200 hover:text-white transition">Home</a></li>
+                        <li><a href="#services" class="text-blue-200 hover:text-white transition">Services</a></li>
+                        <li><a href="#about" class="text-blue-200 hover:text-white transition">About Us</a></li>
+                        <li><a href="#testimonials" class="text-blue-200 hover:text-white transition">Testimonials</a></li>
+                        <li><a href="#contact" class="text-blue-200 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Contact Info</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-blue-400 mt-1 mr-2"></i>
+                            <span class="text-blue-200">20 Main Street, Winnipeg, MB R3B 1B3</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone text-blue-400 mr-2"></i>
+                            <span class="text-blue-200">(431) 554-7410</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope text-blue-400 mr-2"></i>
+                            <span class="text-blue-200">cleaning@brightbreeze.ca</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-clock text-blue-400 mr-2"></i>
+                            <span class="text-blue-200">Mon-Fri: 8am-6pm</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-blue-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-blue-300 mb-4 md:mb-0">© 2023 FreshClean. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-blue-300 hover:text-white transition">Privacy Policy</a>
+                    <a href="#" class="text-blue-300 hover:text-white transition">Terms of Service</a>
+                    <a href="#" class="text-blue-300 hover:text-white transition">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 invisible transition-all">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Mobile Menu Toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // FAQ Accordion
+        const faqBtns = document.querySelectorAll('.faq-btn');
+        
+        faqBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const content = btn.nextElementSibling;
+                const icon = btn.querySelector('i');
+                
+                // Toggle content
+                content.classList.toggle('hidden');
+                
+                // Rotate icon
+                icon.classList.toggle('rotate-180');
+                
+                // Close other open FAQs
+                faqBtns.forEach(otherBtn => {
+                    if (otherBtn !== btn) {
+                        otherBtn.nextElementSibling.classList.add('hidden');
+                        otherBtn.querySelector('i').classList.remove('rotate-180');
+                    }
+                });
+            });
+        });
+        
+        // Back to Top Button
+        const backToTopBtn = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.remove('opacity-0', 'invisible');
+                backToTopBtn.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopBtn.classList.remove('opacity-100', 'visible');
+                backToTopBtn.classList.add('opacity-0', 'invisible');
+            }
+        });
+        
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
